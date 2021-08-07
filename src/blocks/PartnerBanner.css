@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap'); 
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.para
+{
+    font-weight: 300;
+    color: #111;
+    text-align: left;
+}
+.partner-banner
+{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    padding: 40px 100px;
+    justify-content: left;
+    align-items: center;
+    background: url('../components/styles/images/bg3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.partner-banner .partner-content
+{
+    max-width: 990px;
+   
+}
+
+.partner-banner .partner-content h2
+{
+    font-size: 2.5em;
+    width: 500px;
+    text-align: left;
+    color: #fff;
+}
+.partner-banner .partner-content .para
+{
+    font-size: 1.1em;
+    color: rgb(255, 255, 255);
+    width: 500px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 25px;
+
+}
+.partner-btn
+{
+    font-size: 1em;
+    color: #fff;
+    background: #FFB300;
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+}
+
+.partner-btn:hover
+{
+    letter-spacing: 6px;
+}
+.partner-wrapper{
+	position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(32, 32, 32, 0.6);
+    max-width: 850px;
+    width: 100%;
+    height: 120px;
+    padding: 15px;
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+    border-radius: 2px;
+}
+
+.partner-wrapper .input {
+    width: 85%;
+    height: 60px;
+    padding: 15px 20px;
+    border: none;
+    align-self: center;
+    border-radius: 0px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 1em;
+    color: rgb(230, 230, 230);
+}
+
+.searchbtn {
+    background: #FFB300;
+    width: 20%;
+    height: 66.7%;
+    padding: 15px 20px;
+    align-self: center;
+    border-radius: 0px;
+    position: relative;
+    cursor: pointer;
+}
+
+
+
+@media (max-width:991px)
+{
+    .partner-banner
+{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    padding: 20px 50px;
+    justify-content: left;
+    align-items: center;
+    background: url('../components/styles/images/bg3.png');
+    background-size: cover;
+    
+    background-repeat: no-repeat;
+}
+
+.partner-banner .partner-content h2
+{
+    font-size: 2.2em;
+    width: 450px;
+    text-align: left;
+    color: #fff;
+}
+.partner-banner .partner-content .para
+{
+    font-size: 1.0em;
+    color: rgb(255, 255, 255);
+    width: 450px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 25px;
+
+}
+}
+
+
+

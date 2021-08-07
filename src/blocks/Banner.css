@@ -1,0 +1,105 @@
+p
+{
+    font-weight: 300;
+    color: #111;
+}
+.banner
+{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('../images/bg1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner .content
+{
+    max-width: 990px;
+    text-align: center;
+}
+
+.banner .content h2
+{
+    font-size: 2.5em;
+    color: #fff;
+}
+.banner .content p
+{
+    font-size: 1.5em;
+    color: #fff;
+    margin-top: 5px;
+
+}
+.btn
+{
+    font-size: 1em;
+    color: #fff;
+    background: #FFB300;
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 0px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+}
+
+.btn:hover
+{
+    letter-spacing: 6px;
+}
+.wrapper{
+	position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(32, 32, 32, 0.6);
+    max-width: 850px;
+    width: 100%;
+    height: 120px;
+    padding: 15px;
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+    border-radius: 2px;
+}
+
+.wrapper .input {
+    width: 85%;
+    height: 60px;
+    padding: 15px 20px;
+    border: none;
+    align-self: center;
+    border-radius: 0px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 1em;
+    color: rgb(230, 230, 230);
+}
+
+.searchbtn {
+    background: #FFB300;
+    width: 20%;
+    height: 66.7%;
+    padding: 15px 20px;
+    align-self: center;
+    border-radius: 0px;
+    position: relative;
+    cursor: pointer;
+}
+
+.searchbtn  h3{
+    top: 20%;
+    left: 20%;
+    text-align: center;
+    margin-top: 5px;
+    letter-spacing: 5px;
+    font-size: 18px;
+    color: #fff;
+}
+
+
+

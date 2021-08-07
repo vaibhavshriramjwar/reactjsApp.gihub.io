@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap'); 
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+.login-Banner-par
+{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    padding: 50px;
+    background: url('./images/partner-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.login-Banner-par .login-Content
+{
+    max-width: 100%;
+    text-align: center;
+}
+
+.login-Banner-par .login-Content .log-tab
+{
+    width: 450px;
+    height:550px ;
+    margin-top: 50px;
+    margin-left: 100px;
+    background: #fff;
+    align-self: baseline;
+    
+    
+}
+
+
+
+.pl-rect1
+{
+    background-color: #ffae00;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+
+}
+
+
+
+.pl-para
+{
+    padding: 20px;
+    text-align: center;
+}
+
+.pl-para h3
+{
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 1.4em;
+    /* font-family: 'Roboto', sans-serif; */
+}
+
+.pl-para p
+{
+    padding: 30px;
+    font-size: 1.1em;
+    text-align: center;
+    margin-top: -20px;
+}
+
+
+.inp
+{
+    justify-content: center;
+    display: flex;
+}
+
+.input-init
+{
+    background-color: #DAE0E2;
+    border-radius: 5px;
+    margin-right: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.input-init h3
+{
+    color: #616C6F;
+}
+
+.input-number
+{
+    border-width: 0px;
+    background-color: #DAE0E2;
+    border-radius: 5px;
+    padding-left: 8px;
+    letter-spacing: 12px;
+    font-size: medium;
+    color:#616C6F;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 10000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+}
+
+header.sticky
+{
+    background: rgb(255, 255, 255);
+    padding: 10px 100px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+}
+
+header .logo
+{
+    color: #fff;
+    font-weight: 700;
+    font-size: 2em;
+    text-decoration: none;
+}
+header.sticky .logo
+{
+    color: #000;
+}
+header .logo span
+{
+    color: #FFB300;
+}
+header .navigation
+{
+    position: relative;
+    display: flex;
+}
+header .navigation  li
+{
+    list-style: none;
+    margin-left: 30px;
+}
+header .navigation  li a
+{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+header.sticky .navigation  li a
+{
+    color: #000;  
+}
+header .navigation  li a:hover
+{
+   color: #FFB300;
+   font-weight: bold;
+   
+}
+#btn
+{
+    font-size: 1em;
+    color: #fff;
+    background: #FFB300;
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: -8px;
+    align-items: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+}
+
+
+input
+{
+    border-top-color: #DAE0E2;
+    -webkit-appearance: none;
+    outline: none;
+}
+
+.btn-log-p
+{
+    justify-content: center;
+    align-content: center;
+}
+
+.partner-login-btn
+{
+    font-size: 1em;
+    color: #fff;
+    background: #FFB300;
+    display: inline-block;
+    padding: 20px 30px;
+    margin-top: 50px;
+    margin-left: 150px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+}
+
+.partner-login-btn:hover
+{
+    letter-spacing: 6px;
+}
+
+
+
+
+
+@media (max-width:991px)
+{
+
+
+  .login-Banner-par
+{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
+    padding: 0px;
+    background: url('./images/partner-bg2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.login-Banner-par .login-Content
+{
+    max-width: 100%;
+    text-align: center;
+}
+  .login-Banner-par .login-Content .log-tab
+  {
+    width: 400px;
+    height:600px ;
+    margin-left: 50px;
+    vertical-align: middle;
+    background: #fff;
+    align-self: baseline;
+  }
+
+  .tran-text h2
+{
+  visibility: hidden;
+  font-size: 0em;
+  display: none;
+  /* transform: translate(20%, 250%); */
+}
+
+.tran-text p
+{
+  visibility: hidden;
+  display: none;
+  /* transform: translate(20%, 250%); */
+}
+
+}
+

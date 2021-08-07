@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap'); 
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+.otp-Banner-par
+{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    padding: 50px;
+    background: url('./images/partner-bg4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.otp-Banner-par .login-Content
+{
+    max-width: 100%;
+    text-align: center;
+}
+
+.otp-Banner-par .login-Content .log-tab
+{
+    width: 450px;
+    height:550px ;
+    margin-top: 50px;
+    margin-left: 100px;
+    background: #fff;
+    align-self: baseline;
+    
+    
+}
+
+
+
+.pl-rect1
+{
+    background-color: #ffae00;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+
+}
+
+
+
+.pl-para
+{
+    padding: 20px;
+    text-align: center;
+}
+
+.pl-para h3
+{
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 1.4em;
+    /* font-family: 'Roboto', sans-serif; */
+}
+
+.pl-para p
+{
+    padding: 30px;
+    font-size: 1.1em;
+    text-align: center;
+    margin-top: -20px;
+}
+
+
+.inp
+{
+    justify-content: center;
+    display: flex;
+}
+
+.input-init
+{
+    background-color: #DAE0E2;
+    border-radius: 5px;
+    margin-right: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.input-init h3
+{
+    color: #616C6F;
+}
+
+.input-number-otp
+{
+    border-width: 0px;
+    background-color: #DAE0E2;
+    border-radius: 5px;
+    padding-left: 8px;
+    letter-spacing: 12px;
+    font-size: 1.1em;
+    text-align: center;
+    color:#000000;
+    padding: 15px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+input
+{
+    border-top-color: #DAE0E2;
+    -webkit-appearance: none;
+    outline: none;
+}
+
+.btn-log-p
+{
+    justify-content: center;
+    align-content: center;
+}
+
+.partner-login-btn
+{
+    font-size: 1em;
+    color: #fff;
+    background: #FFB300;
+    display: inline-block;
+    padding: 20px 30px;
+    margin-top: 50px;
+    margin-left: 150px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+}
+
+.partner-login-btn:hover
+{
+    letter-spacing: 6px;
+}
+
+
+@media (max-width:991px)
+{
+
+
+  .login-Banner-par
+{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
+    padding: 0px;
+    /* background: url('../components/styles/images/partner-bg.jpg'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.login-Banner-par .login-Content
+{
+    max-width: 100%;
+    text-align: center;
+}
+  .login-Banner-par .login-Content .log-tab
+  {
+    width: 400px;
+    height:600px ;
+    margin-left: 50px;
+    vertical-align: middle;
+    background: #fff;
+    align-self: baseline;
+  }
+
+  .tran-text h2
+{
+  visibility: hidden;
+  font-size: 0em;
+  display: none;
+  /* transform: translate(20%, 250%); */
+}
+
+.tran-text p
+{
+  visibility: hidden;
+  display: none;
+  /* transform: translate(20%, 250%); */
+}
+
+}
+
+
+.tran-text-otp h2
+{
+  color: #fff;
+  margin-top: 450px;
+  text-align: right;
+  font-size: 30px;
+  margin-left: 500px;
+  /* transform: translate(20%, 250%); */
+}
+
+.tran-text-otp p
+{
+  margin-top: 10px;
+  color: #fff;
+  text-align: right;
+  /* transform: translate(20%, 250%); */
+}
+
+
+.pl-para img
+{
+    width: 100px;
+    
+}
